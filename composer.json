@@ -1,0 +1,16 @@
+{
+    "require": {
+        "symfony/var-dumper": "^6.0",
+        "twig/twig": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "App/Controllers",
+            "App\\Models\\": "App/Models",
+            "App\\Interfaces\\": "App/Interfaces",
+            "App\\Repositories\\": "App/Repositories",
+            "App\\Classes\\": "App/Classes",
+            "App\\Views\\": "App/Classes"
+        }
+    }
+}
